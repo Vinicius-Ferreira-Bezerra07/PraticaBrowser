@@ -1,14 +1,16 @@
-function searchWebsite() {
-    const search = querySelector('url_text')
+const searchWebsite = () => {
+    let search = document.querySelector('#url_text')
     
-    console.log(search.value);
+    // console.log(search.value);
     site = search.value
+    console.log(site);
+    // changeWebsite()
 }
 
 function changeWebsite(site) {
-    const frame = querySelector('.responsive-iframe')
-    const frame.src = `www.${site}.com`
+    // const frame = querySelector('.responsive-iframe')
+    // const frame.src = `www.${site}.com`
 }
 
-const colunm_middle = document.querySelector('#url_text')
-colunm_middle.addEventListener("change", searchWebsite)
+// const searchFild = document.querySelector('#url_text')
+// searchFild.addEventListener("change", searchWebsite())
